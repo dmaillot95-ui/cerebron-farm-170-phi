@@ -1,0 +1,30 @@
+{
+  "schema": "PHI_BENCHMARK_V1",
+  "status": "FROZEN_TEMPLATE_NO_RESULTS",
+  "role_id": "SCALE_SYMMETRY_ANALYST",
+  "domains": [
+    "invariant_search",
+    "scaling_law",
+    "symmetry",
+    "self_similarity",
+    "dimensionless_groups",
+    "cross_scale_structure"
+  ],
+  "m6_rule": "M6_NEVER_IN_TRAIN",
+  "modes": [
+    "BASE_MODEL_ALONE",
+    "PHI_PRETRAIN_SCAFFOLD",
+    "PHI_TRAINED",
+    "PHI_PLUS_MINIMAL_COALITION"
+  ],
+  "metrics": [
+    "role_accuracy",
+    "critical_error_rate",
+    "calibration",
+    "transfer",
+    "regression",
+    "latency",
+    "provenance_completeness"
+  ],
+  "result_status": "NO_EXECUTED_BASELINE_YET"
+}

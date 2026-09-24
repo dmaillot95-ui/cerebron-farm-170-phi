@@ -1,0 +1,58 @@
+{
+  "schema": "PHI_ARCHITECTURE_V1",
+  "farm_id": 170,
+  "name": "PHI",
+  "status": "SCAFFOLDED_NOT_TRAINED",
+  "greek_constellation": true,
+  "role_id": "SCALE_SYMMETRY_ANALYST",
+  "mission": "Search for invariants, scaling laws, symmetry, self-similarity, dimensionless structure and cross-scale regularities.",
+  "boundary": "Does not treat the golden ratio as universal or privileged evidence.",
+  "shared_base_family": "CEREBRON_GREEK_SHARED_BASE",
+  "runtime_changed": false,
+  "campaign": {
+    "passes": 10,
+    "compression": "LOCAL_CAPSULE_TO_HYPERFUNNEL"
+  },
+  "layers": [
+    {
+      "id": "L0",
+      "name": "BASE_MODEL"
+    },
+    {
+      "id": "L1",
+      "name": "PHI_CORE"
+    },
+    {
+      "id": "L2",
+      "name": "ADAPTERS"
+    },
+    {
+      "id": "L3",
+      "name": "MEMORY_INTERFACE"
+    },
+    {
+      "id": "L4",
+      "name": "PI_SEARCH_INTERFACE"
+    },
+    {
+      "id": "L5",
+      "name": "TOOLS_AND_FARMS"
+    },
+    {
+      "id": "L6",
+      "name": "CEREBRON_BOUNDARY"
+    },
+    {
+      "id": "L7",
+      "name": "AFAH_REDTEAM"
+    }
+  ],
+  "rules": [
+    "REALITY>COHERENCE",
+    "EVIDENCE>CONFIDENCE",
+    "CLAIM<=EVIDENCE",
+    "M6_NEVER_IN_TRAIN",
+    "RUNTIME_FREEZE",
+    "SHARED_BASE!=INDEPENDENT_EVIDENCE"
+  ]
+}
